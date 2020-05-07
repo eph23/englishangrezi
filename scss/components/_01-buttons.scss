@@ -1,0 +1,34 @@
+.button {
+
+    &:link,
+    &:visited {
+        text-decoration: none;
+        padding: 1.5rem 4rem;
+        display: inline-block;
+        border-radius: 10rem;
+        transition: all .2s;
+        position: relative;
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+
+    &:hover,
+    :active {
+        text-decoration: none;
+    }
+
+    &--gradient {
+
+        &:link,
+        &:visited {
+            background: $background-gradient;
+            color: #fff;
+        }
+
+        &:hover,
+        :active {
+            background: $background-gradient;
+            color: #fff;
+        }
+    }
+}

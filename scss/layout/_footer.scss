@@ -1,0 +1,26 @@
+.section-footer {
+    background: #171822;
+}
+
+.footer-nav {
+    list-style: none;
+
+    &__item {
+        border: 1px solid red;
+    }
+
+    &__links {
+        font-size: 1.6rem;
+        text-decoration: none;
+
+        color: #fff;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.nav-link-footer {
+    font-size: 1.6rem;
+}

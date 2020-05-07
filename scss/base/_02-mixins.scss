@@ -1,0 +1,40 @@
+@mixin media-breakpoint ($breakpoint) {
+
+    // No media query for `xs` since this is the default in Bootstrap
+    // Small devices (landscape phones, 576px and up)
+    @if $breakpoint==sm {
+        @media (min-width: 36em) {
+            @content
+        }
+
+        ;
+    }
+
+
+    // Medium devices (tablets, 768px and up)
+    @if $breakpoint==md {
+        @media (min-width: 48em) {
+            @content
+        }
+
+        ;
+    }
+
+    // Large devices (desktops, 992px and up)
+    @if $breakpoint==lg {
+        @media (min-width: 62em) {
+            @content
+        }
+
+        ;
+    }
+
+    // Extra large devices (large desktops, 1200px and up)
+    @if $breakpoint==xl {
+        @media (min-width: 75em) {
+            @content
+        }
+
+        ;
+    }
+}

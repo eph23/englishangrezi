@@ -1,0 +1,26 @@
+.section-hero {
+    background: url(../img/hero.jpg);
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+
+    &__text-container {
+        height: 110vh;
+
+    }
+
+}
+
+.section-counter {
+   
+}
+
+
+.section-subs {
+    background: $background-gradient;
+    padding: 5rem;
+}
+
