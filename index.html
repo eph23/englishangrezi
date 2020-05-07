@@ -22,31 +22,54 @@
 
 
     <!-- !----------------------------- NAVIGATION ------------------------------ -->
-    <!-- Navbar-->
-    <header class="header">
-        <nav class="navbar navbar-expand-lg fixed-top py-3">
-            <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold">Transparent Nav</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div id="navbarSupportedContent" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold">Home
-                                <span class="sr-only">(current)</span></a></li>
-                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">About</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Gallery</a>
+    <header class="header-section">
+        <div class="container">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./assets/img/logo.png" alt="" style="width: 50px">
+                </a>
+            </div>
+            <div class="nav-menu">
+                <nav class="mainmenu mobile-menu">
+                    <ul>
+                        <li class="active"><a href="./index.html">Home</a></li>
+                        <li><a href="./about-us.html">About</a></li>
+                        <li><a href="./speaker.html">Speakers</a>
                         </li>
-                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Portfolio</a>
-                        </li>
-                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Contact</a>
-                        </li>
+                        <li><a href="./blog.html">Blog</a></li>
                     </ul>
+                </nav>
+            </div>
+            <div id="mobile-menu-wrap">
+                <div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0"
+                        class="slicknav_btn slicknav_collapsed" style="outline: none;"><span
+                            class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span
+                                class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span
+                                class="slicknav_icon-bar"></span></span></a>
+                    <nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
+                        <ul>
+                            <li class="active"><a href="./index.html" role="menuitem">Home</a></li>
+                            <li><a href="./about-us.html" role="menuitem">About</a></li>
+                            <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem"
+                                    aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row"
+                                    style="outline: none;"><a href="./speaker.html">Speakers</a>
+                                    <span class="slicknav_arrow">►</span></a>
+                                <ul class="dropdown slicknav_hidden" role="menu" aria-hidden="true"
+                                    style="display: none;">
+                                    <li><a href="#" role="menuitem" tabindex="-1">Jayden</a></li>
+                                    <li><a href="#" role="menuitem" tabindex="-1">Sara</a></li>
+                                    <li><a href="#" role="menuitem" tabindex="-1">Emma</a></li>
+                                    <li><a href="#" role="menuitem" tabindex="-1">Harriet</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="./schedule.html" role="menuitem">Schedule</a></li>
+                            <li><a href="./blog.html" role="menuitem">Blog</a></li>
+                            <li><a href="./contact.html" role="menuitem">Contacts</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </nav>
+        </div>
     </header>
     <!-- !----------------------------- NAVIGATION ------------------------------ -->
 
@@ -183,12 +206,12 @@
     <!-- !-------------------------------- ABOUT -------------------------------- -->
     <section id="about" class="section-about py-100">
         <div class="container">
-            <div class="row">
+            <div class="row d-flex justify-content-center">
 
                 <!-- Image Container -->
-                <div class="col-lg-6">
-                    <div class="section-about__img-container">
-                        <img src="./assets/img/background.png" alt="" class="section-about__img-item w-100">
+                <div class="col-lg-6 col-md-12">
+                    <div class="section-about__img-container pb-sm-50">
+                        <img src="./assets/img/background-1.png" alt="" class="section-about__img-item w-100">
                     </div>
                 </div>
                 <!-- Image Container -->
@@ -202,7 +225,7 @@
                             </h2>
                         </div>
                         <div class="section-about__body-container">
-                            <p class="para">
+                            <p class="para pb-20">
                                 Do you know A recent LinkedIn survey revealed that 90% of HR Directors, CEOs, and CMOs
                                 claimed that having
                                 English-speaking employees is beneficial to their businesses?
@@ -214,7 +237,7 @@
                                     improvement
                                     in expected salary.</li>
                                 <li class="section-about__list-item flaticon-checked pb-10">
-                                    IAverage 38% boost
+                                    Average 38% boost
                                     in
                                     confidence and self-esteem.</li>
                                 <li class="section-about__list-item flaticon-checked pb-10">
@@ -243,7 +266,7 @@
     <section class="section-subs py-50 text-white">
         <div class="container">
 
-            <div class="row d-flex justify-content-center">
+            <div class="row text-center">
                 <div class="col-12">
                     <div class="section-subs__title-container">
                         <h3 class="text-lvl-tertiary">
@@ -260,7 +283,7 @@
                     </div>
 
                     <form>
-                        <div class="form-group row">
+                        <div class="form-group row  justify-content-center align-items-center">
                             <div class="col-8">
                                 <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
                             </div>
