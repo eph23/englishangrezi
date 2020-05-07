@@ -62178,6 +62178,10 @@ body {
   font-size: 1.6rem;
 }
 
+.text-copyright {
+  font-size: 12px;
+}
+
 .button:link, .button:visited {
   text-decoration: none;
   padding: 1.5rem 4rem;
@@ -62200,6 +62204,27 @@ body {
 .button--gradient :active {
   background: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
   color: #fff;
+}
+
+.icon:before {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  margin-left: -20px;
+  border: 1px solid red;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.social-link:hover .icon {
+  color: red;
+}
+
+.link:link, .link:visited {
+  text-decoration: none;
+}
+.link:hover, .link:active {
+  text-decoration: none;
 }
 
 .section-hero {
@@ -62237,16 +62262,6 @@ body {
   margin-left: -175px;
 }
 
-.icons:before {
-  color: #fff;
-  font-size: 20px;
-  font-style: normal;
-  margin-left: -20px;
-  border: 1px solid red;
-  padding: 1rem;
-  border-radius: 50%;
-}
-
 .section-subs {
   background: url(../img/newslatter-bg.jpg);
   background-repeat: no-repeat;
@@ -62267,23 +62282,4 @@ body {
 
 .section-footer {
   background: #171822;
-}
-
-.footer-nav {
-  list-style: none;
-}
-.footer-nav__item {
-  border: 1px solid red;
-}
-.footer-nav__links {
-  font-size: 1.6rem;
-  text-decoration: none;
-  color: #fff;
-}
-.footer-nav__links:hover {
-  text-decoration: none;
-}
-
-.nav-link-footer {
-  font-size: 1.6rem;
 }
