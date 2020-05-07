@@ -10,6 +10,8 @@
     <!-- !Font -->
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
 
+    <!-- !Main CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/icons/font/flaticon.css">
 
     <!-- !Main CSS -->
     <link rel="stylesheet" href="./assets/css/styles.css">
@@ -20,47 +22,31 @@
 
 
     <!-- !----------------------------- NAVIGATION ------------------------------ -->
+    <!-- Navbar-->
     <header class="header">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light py-40">
-                <a class="navbar-brand" href="#">Navbar</a>
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+            <div class="container"><a href="#" class="navbar-brand text-uppercase font-weight-bold">Transparent Nav</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active"><a href="#" class="nav-link text-uppercase font-weight-bold">Home
+                                <span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">About</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Gallery</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Portfolio</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#">Disabled</a>
+                        <li class="nav-item"><a href="#" class="nav-link text-uppercase font-weight-bold">Contact</a>
                         </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     </header>
     <!-- !----------------------------- NAVIGATION ------------------------------ -->
 
@@ -75,17 +61,17 @@
                         <div class="section-hero__inner-container">
                             <div class="section-hero__sub-container text-primary pb-20">
                                 <h5 class="text-lvl-quinary">
-                                    5 TO 9 MAY 2019, MARDAVALL HOTEL, NEW YORK
+                                    Keep your Brian Sharp
                                 </h5>
                             </div>
                             <div class="section-hero__title-container pb-50">
                                 <h1 class="text-lvl-primary">
-                                    Change Your Mind <br>
-                                    To Become Sucess
+                                    Take Control of <br>
+                                    Your Life and Career
                                 </h1>
                             </div>
                             <div class="button-container">
-                                <a href="" class="button button--gradient">Read More</a>
+                                <a href="#about" class="button button--gradient">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -110,85 +96,84 @@
         <div class="container">
 
             <!-- Hero Countdown Container -->
-            <div class="countdown-content">
-                <div class="row d-flex justify-content-center align-items-center">
+            <div class="row d-flex justify-content-center align-items-center">
 
-                    <!-- Text Container -->
-                    <div class="col-lg-4">
-                        <div class="countdown-content__text-container my-20">
-                            <div class="countdown-content__sub-container">
-                                <p class="para">
-                                    Conference Date
-                                </p>
-                            </div>
-                            <div class="countdown-content__title-container">
-                                <h3 class="text-lvl-tertiary">
-                                    Count Every Second <br>
-                                    Until the Event
-                                </h3>
-                            </div>
+                <!-- Text Container -->
+                <div class="col-lg-4">
+                    <div class="countdown-content__text-container my-20">
+                        <div class="countdown-content__sub-container">
+                            <p class="para">
+                                Conference Date
+                            </p>
+                        </div>
+                        <div class="countdown-content__title-container">
+                            <h3 class="text-lvl-tertiary">
+                                Count Every Second <br>
+                                Until the Event
+                            </h3>
                         </div>
                     </div>
-                    <!-- Text Container -->
+                </div>
+                <!-- Text Container -->
 
-                    <!-- Countdown Container -->
-                    <div class="col-lg-8">
+                <!-- Countdown Container -->
+                <div class="col-lg-8">
 
-                        <!-- Inner Row -->
-                        <div id="clockdiv">
-                            <div class="row ">
-                            
-                                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                                    <div class="countdown-card text-center my-20">
-                                        <div class="countdown-card__title-container display-1">
-                                            <span class="days"></span>
-                                        </div>
-                                        <div class="countdown-card__body-container">
-                                            <p class="para">Days</p>
-                                        </div>
+                    <!-- Inner Row -->
+                    <div id="clockdiv">
+                        <div class="row ">
+
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                                <div class="countdown-card text-center my-20">
+                                    <div class="countdown-card__title-container display-1">
+                                        <span class="days"></span>
+                                    </div>
+                                    <div class="countdown-card__body-container">
+                                        <p class="para">Days</p>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                                    <div class="countdown-card text-center my-20">
-                                        <div class="countdown-card__title-container display-1">
-                                            <span class="hours"></span>
-                                        </div>
-                                        <div class="countdown-card__body-container">
-                                            <p class="para">Days</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                                    <div class="countdown-card text-center my-20">
-                                        <div class="countdown-card__title-container display-1">
-                                            <span class="minutes"></span>
-                                        </div>
-                                        <div class="countdown-card__body-container">
-                                            <p class="para">Days</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-3 col-sm-6 col-6">
-                                    <div class="countdown-card text-center my-20">
-                                        <div class="countdown-card__title-container display-1">
-                                            <span class="seconds"></span>
-                                        </div>
-                                        <div class="countdown-card__body-container">
-                                            <p class="para">Days</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            
                             </div>
-                        </div>
-                        <!-- Inner Row -->
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                                <div class="countdown-card text-center my-20">
+                                    <div class="countdown-card__title-container display-1">
+                                        <span class="hours"></span>
+                                    </div>
+                                    <div class="countdown-card__body-container">
+                                        <p class="para">Days</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                                <div class="countdown-card text-center my-20">
+                                    <div class="countdown-card__title-container display-1">
+                                        <span class="minutes"></span>
+                                    </div>
+                                    <div class="countdown-card__body-container">
+                                        <p class="para">Days</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+                                <div class="countdown-card text-center my-20">
+                                    <div class="countdown-card__title-container display-1">
+                                        <span class="seconds"></span>
+                                    </div>
+                                    <div class="countdown-card__body-container">
+                                        <p class="para">Days</p>
+                                    </div>
+                                </div>
+                            </div>
 
+                        </div>
                     </div>
-                    <!-- Countdown Container -->
+                    <!-- Inner Row -->
 
                 </div>
+                <!-- Countdown Container -->
 
             </div>
+
+        </div>
         </div>
         <!-- Hero Countdown Container -->
         </div>
@@ -196,7 +181,7 @@
     <!-- !------------------------------- COUNTER ------------------------------- -->
 
     <!-- !-------------------------------- ABOUT -------------------------------- -->
-    <section class="section-about py-100">
+    <section id="about" class="section-about py-100">
         <div class="container">
             <div class="row">
 
@@ -213,19 +198,37 @@
                     <div class="section-about__text-container">
                         <div class="section-about__title-container">
                             <h2 class="text-lvl-secondary">
-                                About Conference
+                                About
                             </h2>
                         </div>
                         <div class="section-about__body-container">
                             <p class="para">
-                                When I first got into the online advertising business, I was looking for the magical
-                                combination that would put my
-                                website into the top search engine rankings, catapult me to the forefront of the minds
-                                or individuals looking to buy my
-                                product, and generally make me rich beyond my wildest dreams! After succeeding in the
-                                business for this long, I’m able
-                                to look back on my old self with this kind of thinking and shake my head.
+                                Do you know A recent LinkedIn survey revealed that 90% of HR Directors, CEOs, and CMOs
+                                claimed that having
+                                English-speaking employees is beneficial to their businesses?
                             </p>
+                            <ul class="section-about__list-main">
+                                <li class="section-about__list-item pb-10">
+                                    <i class=" flaticon-checked"></i>
+                                    Average 28%
+                                    improvement
+                                    in expected salary.</li>
+                                <li class="section-about__list-item flaticon-checked pb-10">
+                                    IAverage 38% boost
+                                    in
+                                    confidence and self-esteem.</li>
+                                <li class="section-about__list-item flaticon-checked pb-10">
+                                    Educate your kids without spending tons of
+                                    money</li>
+                                <li class="section-about__list-item flaticon-checked pb-10">
+                                    More part-time well-paid jobs</li>
+                                <li class="section-about__list-item flaticon-checked pb-10">
+                                    Helps You Get Into Great Schools</li>
+                                <li class="section-about__list-item flaticon-checked pb-10">
+                                    Become a Better Writer</li>
+                                <li class="section-about__list-item flaticon-checked pb-10">
+                                    Enjoy English movie</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -237,39 +240,53 @@
     <!-- !-------------------------------- ABOUT -------------------------------- -->
 
     <!-- !------------------------------ SUBSCRIBE ------------------------------ -->
-    <section class="section-subs py-50">
+    <section class="section-subs py-50 text-white">
         <div class="container">
-            <div class="row d-flex justify-content-center align-items-center">
 
-                <!-- Subscription Content -->
-                <div class="col-lg-6">
-                    <div class="section-subs__text-container">
-                        <div class="section-subs__title-container">
-                            <h3 class="text-lvl-tertiary">
-                                Subscribe Newsletter
-                            </h3>
-                        </div>
-                        <div class="section-subs__body-container">
-                            <p class="para">
-                                Subscribe to our newsletter and don’t miss anything
-                            </p>
-                        </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-12">
+                    <div class="section-subs__title-container">
+                        <h3 class="text-lvl-tertiary">
+                            GET YOUR FREE EBOOK!
+                        </h3>
                     </div>
-                </div>
-                <!-- Subscription Content -->
+                    <div class="section-subs__body-container">
+                        <p class="para">
+                            <span class="d-none d-md-block">
+                                Subscribe now to get notified at our Grand Opening. <br>
+                            </span>
+                            Already ​17,249+ subscribers​ are on the list. 
+                        </p>
+                    </div>
 
-                <!-- Subscription form -->
-                <div class="col-lg-6">
                     <form>
                         <div class="form-group row">
-                            <div class="col">
+                            <div class="col-8">
                                 <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
                             </div>
                             <a href="#" class="btn btn-primary">Click Here</a>
                         </div>
                     </form>
                 </div>
+            </div>
+
+            <div class="row d-flex justify-content-center align-items-center">
+
+                <!-- Subscription Content -->
+                <div class="col-lg-6">
+                    <div class="section-subs__text-container py-20">
+
+                    </div>
+                </div>
+                <!-- Subscription Content -->
+
                 <!-- Subscription form -->
+                <div class="col-lg-6">
+
+                </div>
+                <!-- Subscription form -->
+
+
 
             </div>
         </div>
@@ -303,12 +320,6 @@
                                 <li class="nav-item d-inline-block px-10 py-10">
                                     <a href="" class="nav-link nav-link-footer">Schedule</a>
                                 </li>
-                                <li class="nav-item d-inline-block px-10 py-10">
-                                    <a href="" class="nav-link nav-link-footer">Blog</a>
-                                </li>
-                                <li class="nav-item d-inline-block px-10 py-10">
-                                    <a href="" class="nav-link nav-link-footer">Contact</a>
-                                </li>
                             </ul>
                         </div>
                     </div>
@@ -326,11 +337,22 @@
                     <div class="col-12">
                         <div class="footer-social">
                             <ul class="social__list">
-                                <li class="social__items"><a href="" class="social__items"></a></li>
-                                <li class="social__items"><a href="" class="social__items"></a></li>
-                                <li class="social__items"><a href="" class="social__items"></a></li>
-                                <li class="social__items"><a href="" class="social__items"></a></li>
-                                <li class="social__items"><a href="" class="social__items"></a></li>
+                                <li class="social__items d-inline-block"><a href="" class="social__links "><svg
+                                            class="icon">
+                                            <use xlink:href="##facebook" />
+                                        </svg></a></li>
+                                <li class="social__items d-inline-block"><a href="" class="social__links ">
+                                        <span class="flaticon-twitter"></span>
+                                    </a></li>
+                                <li class="social__items d-inline-block"><a href="" class="social__links ">
+                                        <span class="flaticon-linkedin"></span>
+                                    </a></li>
+                                <li class="social__items d-inline-block"><a href="" class="social__links ">
+                                        <span class="flaticon-instagram"></span>
+                                    </a></li>
+                                <li class="social__items d-inline-block"><a href="" class="social__links ">
+                                        <span class="flaticon-youtube"></span>
+                                    </a></li>
                             </ul>
                         </div>
                     </div>

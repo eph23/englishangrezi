@@ -1,0 +1,18 @@
+.section-about {
+    margin: 0;
+
+    &__list-main {
+        margin: 0;
+        list-style: none;
+    }
+
+    &__list-item {
+        font-size: 1.6rem;
+    }
+
+    &__text-container {
+        // background: rba(0, 0, 0, 0.5);
+        // background: #000;
+    }
+
+}
