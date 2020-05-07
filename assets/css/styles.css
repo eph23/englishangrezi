@@ -62216,7 +62216,7 @@ body {
 }
 
 .section-subs {
-  background: linear-gradient(120deg, #ee8425 0%, #f9488b 100%), linear-gradient(120deg, #ee8425 0%, #f9488b 100%);
+  background: url(../img/newslatter-bg.jpg);
   padding: 5rem;
 }
 
