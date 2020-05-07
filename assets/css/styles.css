@@ -62237,6 +62237,16 @@ body {
   margin-left: -175px;
 }
 
+.icons:before {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  margin-left: -20px;
+  border: 1px solid red;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
 .section-subs {
   background: url(../img/newslatter-bg.jpg);
   background-repeat: no-repeat;
