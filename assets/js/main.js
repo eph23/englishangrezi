@@ -50,3 +50,15 @@ function initializeClock(id, endtime) {
 
 var deadline = new Date(Date.parse(new Date()) + 60 * 24 * 60 * 60 * 1000);
 initializeClock('clockdiv', deadline);
+
+(function ($) {
+  /*------------------
+  Navigation
+--------------------*/
+  $(".mobile-menu").slicknav({
+    prependTo: '#mobile-menu-wrap',
+    allowParentLinks: true
+  });
+
+
+})(jQuery);

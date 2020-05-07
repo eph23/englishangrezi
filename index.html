@@ -22,55 +22,43 @@
 
 
     <!-- !----------------------------- NAVIGATION ------------------------------ -->
-    <header class="header-section">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container">
-            <div class="logo">
-                <a href="./index.html">
-                    <img src="./assets/img/logo.png" alt="" style="width: 50px">
-                </a>
+
+            <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" style="width: 80px" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
             </div>
-            <div class="nav-menu">
-                <nav class="mainmenu mobile-menu">
-                    <ul>
-                        <li class="active"><a href="./index.html">Home</a></li>
-                        <li><a href="./about-us.html">About</a></li>
-                        <li><a href="./speaker.html">Speakers</a>
-                        </li>
-                        <li><a href="./blog.html">Blog</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div id="mobile-menu-wrap">
-                <div class="slicknav_menu"><a href="#" aria-haspopup="true" role="button" tabindex="0"
-                        class="slicknav_btn slicknav_collapsed" style="outline: none;"><span
-                            class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span
-                                class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span
-                                class="slicknav_icon-bar"></span></span></a>
-                    <nav class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu" style="display: none;">
-                        <ul>
-                            <li class="active"><a href="./index.html" role="menuitem">Home</a></li>
-                            <li><a href="./about-us.html" role="menuitem">About</a></li>
-                            <li class="slicknav_collapsed slicknav_parent"><a href="#" role="menuitem"
-                                    aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row"
-                                    style="outline: none;"><a href="./speaker.html">Speakers</a>
-                                    <span class="slicknav_arrow">►</span></a>
-                                <ul class="dropdown slicknav_hidden" role="menu" aria-hidden="true"
-                                    style="display: none;">
-                                    <li><a href="#" role="menuitem" tabindex="-1">Jayden</a></li>
-                                    <li><a href="#" role="menuitem" tabindex="-1">Sara</a></li>
-                                    <li><a href="#" role="menuitem" tabindex="-1">Emma</a></li>
-                                    <li><a href="#" role="menuitem" tabindex="-1">Harriet</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="./schedule.html" role="menuitem">Schedule</a></li>
-                            <li><a href="./blog.html" role="menuitem">Blog</a></li>
-                            <li><a href="./contact.html" role="menuitem">Contacts</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
+
         </div>
-    </header>
+    </nav>
     <!-- !----------------------------- NAVIGATION ------------------------------ -->
 
     <!-- !-------------------------------- HERO --------------------------------- -->
