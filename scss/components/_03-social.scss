@@ -1,17 +1,14 @@
 .icon {
     &:before {
-        color: #fff;
-        font-size: 20px;
+        color: $primary;
+        font-size: 15px;
+        font-weight: 400;
         font-style: normal;
         margin-left: -20px;
-        border: 1px solid red;
+        border: 1px solid gray;
         padding: 1rem;
         border-radius: 50%;
     }
-}
-
-.social-link:hover .icon {
-    color: red;
 }
 
 .link {
@@ -19,10 +16,22 @@
     &:link,
     &:visited {
         text-decoration: none;
+        // color: gray;
     }
 
     &:hover,
     &:active {
         text-decoration: none;
+    }
+
+    &--email {
+        font-size: 1.2rem;
+        color: $primary;
+        transition: all .2s;
+        border-bottom: 1px solid transparent;
+
+        &:hover {
+            border-bottom: 1px solid $primary;
+        }
     }
 }

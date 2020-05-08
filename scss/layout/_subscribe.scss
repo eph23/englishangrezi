@@ -5,3 +5,19 @@
     background-position: center;
     padding: 5rem;
 }
+
+.input-form {
+    margin: 0;
+
+    &__text-input {
+        height: 60px;
+        border-radius: 100px;
+        font-size: 16px;
+        padding: 0 2rem;
+    }
+
+    &__main-button {
+        position: relative;
+        margin-left: -177px;
+    }
+}

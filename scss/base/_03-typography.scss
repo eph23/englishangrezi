@@ -10,21 +10,27 @@
 
 .text-lvl-secondary {
     font-size: 4rem;
+    font-weight: 600
 }
 
 .text-lvl-tertiary {
     font-size: 3rem;
+    font-size: 800;
+
+    @include media-breakpoint-down (sm) {
+        font-size: 2.8rem;
+    }
 }
 
 .text-lvl-quinary {
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .para {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 
 .text-copyright {
-    font-size: 12px;
+    font-size: 1.2rem;
 }

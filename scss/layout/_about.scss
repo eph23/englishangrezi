@@ -1,4 +1,9 @@
 .section-about {
+    // background-image: url(../img/background-1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // height: 100vh;
     margin: 0;
 
     &__list-main {
@@ -17,16 +22,7 @@
 
 }
 
-
-.subs-form {
-    height: 60px;
-    border-radius: 100px;
-    font-size: 16px;
-    padding: 0 2rem;
+.about-card {
+    box-shadow: 0px 0px 55px 7px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
 }
-
-.subs-button {
-    position: relative;
-    margin-left: -175px;
-}
-
