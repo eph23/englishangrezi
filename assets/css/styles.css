@@ -62184,6 +62184,11 @@ body {
 .para {
   font-size: 1.6rem;
 }
+@media (max-width: 767.98px) {
+  .para--counter {
+    font-size: 1.2rem;
+  }
+}
 
 .text-copyright {
   font-size: 1.2rem;

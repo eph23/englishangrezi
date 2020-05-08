@@ -29,6 +29,12 @@
 
 .para {
     font-size: 1.6rem;
+
+    &--counter {
+        @include media-breakpoint-down (sm) {
+            font-size: 1.2rem;
+        }
+    }
 }
 
 .text-copyright {
