@@ -62189,6 +62189,11 @@ body {
     font-size: 1.2rem;
   }
 }
+@media (max-width: 575.98px) {
+  .para--counter {
+    font-size: 1rem;
+  }
+}
 
 .text-copyright {
   font-size: 1.2rem;
