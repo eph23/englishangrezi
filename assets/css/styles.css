@@ -62182,7 +62182,7 @@ body {
 }
 
 .para {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
 }
 
 .text-copyright {
@@ -62230,6 +62230,10 @@ body {
 .link:hover, .link:active {
   text-decoration: none;
 }
+.link--nav {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
 .link--email {
   font-size: 1.2rem;
   color: #f21920;
@@ -62251,6 +62255,10 @@ body {
 }
 .section-hero__text-container {
   height: 110vh;
+}
+
+.toggler-icon {
+  padding: 2rem;
 }
 
 .section-about {

@@ -16,12 +16,16 @@
     &:link,
     &:visited {
         text-decoration: none;
-        // color: gray;
     }
 
     &:hover,
     &:active {
         text-decoration: none;
+    }
+
+    &--nav {
+        font-size: 1.4rem;
+        font-weight: 600;
     }
 
     &--email {
